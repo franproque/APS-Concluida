@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-pedido-list.css">
+    <link rel="stylesheet" href="css/style-page-menu.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Lanchonete</title>
+</head>
+<body>
+    <header><img src="img/phone-menu-512.png" alt=""> <h1>Lista de Pedidos</h1></header>
+    <div class="main">
+        <div class="main-menu">
+            <nav>
+                <ul>
+                    
+                    <li><img src="" alt="">Home</li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt="">Meus Pedidos</li>
+                    <li></li>
+                </ul>
+            </nav>
+
+            
+        </div>
+    <div class="main-card">
+
+       <div class="group-card">
+           <!--Lista um novo pedido-->
+            <div class="partial-card-list">
+                <img src="img/hamburguer.jpg" alt="" title="Clique para atualizar o status do pedido de pendente para pronto">
+
+                <div class="card-header">
+                    
+                    <h2>Pedido #1</h2>
+                    <p>Cliente 1</p>
+                    <span>
+                    <h3>Tempo: 10 minutos</h3>
+                    </span>
+                    <span id="01" class="span-click-info" onclick="showInfo(this.id)">
+                        <img src="/img/arrow.png" alt="">
+                    </span>
+                </div>
+            </div>   
+            <div id="01card" class="partial-card-list-info" >
+                <dl class="ul-list-partial-card" type="square">
+                    <dt class="li-list-partial-card"> Lanche 1
+                        <dd><img src="img/hamburguer.jpg" alt="" class="li-dd-img"><p><span class="ingrediente">Pão Frances </span> <span class="quantidade"> 2  x  </span>  <span class="peso"> 180g</span></p></dd>
+                       
+                    </dt>
+                  
+                                       
+                </dl>
+            </div>
+
+
+            
+        </div> 
+
+        
+
+        
+
+    
+
+    
+    </div>
+    <script src="js/CarregaProdutos.js"></script>
+    <script src="js/listPedidos.js"></script>
+</body>
+</html>

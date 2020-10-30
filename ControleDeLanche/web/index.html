@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lanchonete</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Lanchonete</h1>        
+        <i class="fas fa-hamburger"></i>
+    </div>
+    <div class="main-card">
+        <aside class="menu-bar">
+            <form action="login" class="form-menu" method="post">
+                <h2>Login</h2>
+                <br>
+                <label for="">CPF</label>
+                <input type="text" name="email" id="email">
+                <label for="">Senha</label>
+                <input type="password" name="senha" id="pass">
+                <br>
+                <input type="submit" name="pass"  onclick="setarLogin()">
+                <br>
+                <a href="cadastro.html">Cadastrar</a>
+            </form>
+        </aside>
+    </div>
+    <script>function setarLogin(){
+       sessionStorage.setItem("usuario",document.getElementById("email").value)
+       sessionStorage.setItem("pass",document.getElementById('pass').value)
+    }</script>
+</body>
+</html>

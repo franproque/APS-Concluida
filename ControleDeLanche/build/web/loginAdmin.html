@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lanchonete</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Lanchonete</h1>        
+        <i class="fas fa-hamburger"></i>
+    </div>
+    <div class="main-card">
+        <aside class="menu-bar">
+            <form action="central" class="form-menu" method="POST" >
+                <h2>Login</h2>
+                <br>
+                <label for="">Usuario-Model</label>
+                <input type="text" name="user" id="user">
+                <label for="">Senha</label>
+                <input type="password" name="senha" id="pass">
+                <br>
+              
+                <br>
+                <button type="submit">Entrar</button>
+            </form>
+            
+        </aside>
+    </div>
+   <script>
+       const api = axios.create({
+    baseURL:'http://localhost:8080/ControleDeLanche',
+    headers: {'X-Custom-Header': 'foobar'}
+})
+      
+   /* async function login(){
+           document.getElementById("user").value;
+           document.getElementById("pass").value;
+           var t =parseInt(document.getElementById("user").value);
+           console.log(t);
+           var y= String(document.getElementById("pass").value);
+         var logar={user:t,senha:y}
+         await api.post('/central',logar)
+        console.log(logar)
+       }
+       */
+   </script>
+</body>
+</html>

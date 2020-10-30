@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: #f7ff00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(223, 221, 221);
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header i{
+    font-size: 2.5rem;
+    margin-left: 1%;
+}
+
+.main-card{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/ultima2.jpg);
+    background-size: contain;
+    overflow: hidden;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu-bar{
+    display: flex;
+    width: 280px;
+    max-width: 80%;
+    height: 50vh ;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-right: 2%;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:right;
+    align-items: center;
+    border-radius: 5px;
+    opacity: 90%;
+
+}
+
+.form-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 85%;
+}
+
+.form-menu input[type="submit"]{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: seashell;
+    cursor: pointer;
+    border: 0;
+    font-size: 1.5rem;
+}
+
+.form-menu input[type="submit"]:hover{
+    color: rgb(112, 216, 230);
+    transition: 1s;
+}
+
+.form-menu a{
+    align-self: center;
+}
+
+.form-menu a:hover{
+    color: darkviolet;
+    transition: 1s;
+}
+
+.cadastro-card{
+    display: flex;
+    align-items: flex-start;
+    background-color: #ECE9E6;
+    width: 65%;
+    height: 80vh;
+    border-radius: .5rem;
+}
+
+.lado1-cadastro-card{
+    display: flex;
+    background-color: blueviolet;
+    height: 100%;
+    width: 35%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    color: aliceblue;
+}
+
+.lado1-cadastro-card h3{
+    margin-top: 7%;
+}
+
+
+.lado1-cadastro-card a{
+    margin-bottom: 5px;
+}
+
+.lado2-cadastro-card{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+    background-color: #f7f6f3;
+}
+
+.lado2-cadastro-card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslategray;
+    height: 20%;
+    width: 100%;
+    
+}
+
+.lado2-cadastro-card-header h2{
+    margin-top: 3%;
+}
+
+.lado2-cadastro-card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    -webkit-text-stroke-width: 100%;
+    height: 70%;
+}
+
+
+#cadastro-input {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+
+}
+
+#cadastro-input input{
+    width: 80%;
+}
+
+.lado2-cadastro-card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+

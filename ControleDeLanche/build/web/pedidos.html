@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="css/pedido.css">
+    <title>Pedidos</title>
+</head>
+<body>
+    <header>
+        
+        <div class="cabecalho">
+            <h2 style="margin-right: 90px; font-weight: 800;"> Total Lanche: R$<span id="total-lanche"></span></h2>
+            <a href="menu.html"><button type="button" class="btn btn-danger" onclick="voltarAoMenu()">Voltar</button></a>
+            <button type="button" class="btn btn-success" onclick="incluirLanche()">Incluir</button>
+        </div>
+    </header>
+    <br>
+    <main>
+        
+        <div class="container">
+            
+            <!--
+            <div class="card" style="background-image: url('img/bgHam.jpg'); background-size: cover; background-position: center;">
+                <div class="card-body">
+                    <div class="card-food">
+                        <img src="img/hamburguer.jpg" alt="">
+                        <h2>Hamburguer</h2>
+                        <span>
+                            <h3>180g </h3>
+                            <h3>R$10,00</h3>
+                            </span>
+                            <div class="buttons-add">  
+                                <button onclick="aumentaQuantidade(1)">+</button>
+                                <input type="number" min="1" name="" id="1input"value=1>
+                                <button onclick="diminuiQuantidade(1)"> -</button>
+                            </div>
+                            <div class="add-remove">     
+                                <button onclick="montaLanche(${element.idProduto})" title="Coloque a quantidde antes de adicionar ao lanche">Adicionar no lanche</button> 
+                                </div>
+                    </div>
+                </div>
+                
+            </div>
+            -->
+            <!--<div class="card-footer"></div>-->
+            <!--
+            <div class="card" style="background-image: url('img/bgHam.jpg'); background-size: cover; background-position: center;">
+                <div class="card-body">
+                    <div>
+                        <label for="">Escolha a Carne*</label>
+                        <br>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option value="Acém">Acém</option>
+                            <option value="Alcatra">Alcatra</option>
+                            <option value="Contrafilé">Contrafilé</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card-footer"></div>
+            </div>
+            <div class="card" style="background-image: url('img/bgHam.jpg'); background-size: cover; background-position: center;">
+                <div class="card-body">
+                    <div>
+                        <label for="">Escolha a Salada</label>
+                        <br>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option value="Alface e Tomate">Alface e Tomate</option>
+                            <option value="Alface">Alface</option>
+                            <option value="Tomate">Tomate</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card-footer"></div>
+            </div>
+            <div class="card" style="background-image: url('img/bgHam.jpg'); background-size: cover; background-position: center;">
+                <div class="card-body">
+                    <div>
+                        <label for="">Escolha os molhos</label>
+                        <br>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option value="Ketchup">Alface e Tomate</option>
+                            <option value="Ketchup e Maionese">Alface</option>
+                            <option value="Ketchup e Mostarda">Tomate</option>
+                            <option value="Ketchup, Mostarda e Maionese">Tomate</option>
+                            <option value="Maionese">Tomate</option>
+                            <option value="Maionese e Mostarda">Tomate</option>
+                            <option value="Mostarda">Tomate</option>
+                        </select>
+                    </div>
+                </div>
+            
+                <div class="card-footer"></div>-->
+            </div>
+        </div>
+    </main>
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    <script src="js/CarregaProdutos.js"></script>
+</body>
+</html>

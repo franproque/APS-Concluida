@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="main-card">
+        <div class="cadastro-card">
+            <div class="lado1-cadastro-card">
+                <h3>Já possui conta ?</h3>
+                
+                <a href="index.html"><button type="button" class="btn btn-outline-primary">Logar</button></a> 
+            </div>
+            <div class="lado2-cadastro-card">
+                <div class="lado2-cadastro-card-header">
+                    <h2>Cadastro</h2>
+                </div>
+                <div class="lado2-cadastro-card-body">
+                    <div class="input-group input-group-sm mb-3" id="cadastro-input">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-sm"><i class="far fa-user"></i></span>
+                        </div>
+                        <input id="txtNome" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Insira seu nome">
+                      </div>
+
+                      <div class="input-group input-group-sm mb-3" id="cadastro-input">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-sm"><i class="fas fa-envelope"></i></span>
+                        </div>
+                        <input id="txtEmail" type="email" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Insira seu email">
+                      </div>
+
+                      <div class="input-group input-group-sm mb-3" id="cadastro-input">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-sm"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input id="txtSenha" type="password" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Insira sua senha">
+                      </div>
+
+                      <div class="input-group input-group-sm mb-3" id="cadastro-input">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-sm"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input id="txtSenhaConf" type="password" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Insira sua senha novamente">
+                      </div>
+                      <div class="input-group input-group-sm mb-3" id="cadastro-input">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-sm"><i class="fas fa-user-shield"></i></span>
+                        </div>
+                        <input id="txtCPF" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Insira seu CPF">
+                      </div>          
+                      <div class="input-group input-group-sm mb-3" id="cadastro-input">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-sm"><i class="fas fa-phone"></i></span>
+                        </div>
+                        <input id="txtTelefone" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Insira seu telefone">
+                      </div>
+                      <div class="input-group input-group-sm mb-3" id="cadastro-input">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-sm"><i class="fas fa-birthday-cake"></i></span>
+                        </div>
+                        <input id="txtDtNascimento" type="date" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Insira sua data de nascimento">
+                      </div>
+                </div>
+                <div class="lado2-cadastro-card-footer">
+                  <button class="btn btn-primary" onclick="fabricarUsuario()">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </div>   
+       
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/cadastro.js"></script>
+    <script src="js/usuario_fabrica.js"></script>
+</body>
+</html>

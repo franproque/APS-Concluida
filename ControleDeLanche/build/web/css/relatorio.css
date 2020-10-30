@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('../img/ultima2.jpg');
+    height: 100vh;
+}
+
+header{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 80%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 980px;
+    max-width: 90%;
+    padding: 5px;
+}
+
+.cabecalho button{
+    margin-left: 2%;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 980px;
+    max-width: 90%;
+    padding: 15px;
+    margin: auto;
+    flex-direction: column;
+    background-color: black;
+    opacity: 95%;
+}
+
+.card{
+    display: flex;
+    background-color: blueviolet;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-body label{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+

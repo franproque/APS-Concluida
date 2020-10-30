@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/cadastro-lanche.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/DAO/DAOLanche.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/DAO/DAOProduto.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/cadastro.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/model/Usuario.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/relatorio.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/controleDoMenu.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/DAO/DAOProdutosPrecos.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/relatorio.html</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/DAO/DAORequestReader.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/SaidaEntregueParaServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/DAO/DAOUsuario.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/ListarLancheServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/novoProduto.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/RelatorioServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/utils.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/controle-pedidos.html</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/CadastroPrecoProdutoServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/controle-pedidos.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/NovoUsuarioServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/LancheCarregar.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/admin.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/menu.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/ProdutosServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/ExcluirLancheServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/pedidos.html</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/menu.html</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/DAO/DAOPedidos.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/ListarProdutosServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/listPedidos.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/NovoProdutoServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/js/CarregaProdutos.js</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/CentralServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/src/java/rotas/FinalizaPedidoServlet.java</file>
+            <file>file:/media/makefake/A/APS%20Desenvolvimento%20Lanchonete%20Online/ControleDeLanche/web/cadastro-lanche.html</file>
+        </group>
+    </open-files>
+</project-private>
